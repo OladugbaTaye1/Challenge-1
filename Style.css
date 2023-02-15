@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+    align-items: center;
+    padding-right: 71px;  
+}
+.navBar {
+    width: 40rem;   
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.navBar ul li{
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 20px;
+    font-family: roboto;
+}
+.navBar ul .HM{
+    font-weight: bold;
+}
+.navBar ul .BS{
+    color: #F20A0A;
+    font-weight: bold;
+}
+.FS{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 600px;  
+}
+.sppp{
+    color: #F20A0A;
+}
+.text h5{
+    font-weight: 700;
+    font-size: 60px;
+    justify-content: center;
+    margin-bottom: 0px;
+    width: 474px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family:  Roboto;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 300px;
+    align-content: center;
+    justify-content: center;
+    padding: 0px; 
+}
+.FS img{
+    width: 500px;
+    height: 500px;
+}
+.btn1{
+    height: 70px;
+    width: 300px;
+    background-color: #FFFFFF;
+    color: #F20A0A;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid red;
+    margin-top: 30px;
+
+    border: none;
+    font-family: Roboto;
+    border-radius: 15px;
+}
+.SS{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+}
+.SS1{
+    display: flex;
+    width: 75rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.text1 h4{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Roboto;
+    height: 70px;
+}
+.text1 p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300px;
+    width: 436px;
+    height: 104px;
+    margin-top: 19px;
+    line-height: 25.59px;
+}
+.Image{
+    display: flex;
+    gap: .5rem;
+
+}
+.Image img{
+    display: flex;
+    gap: 1.5rem;
+}
+.btn2{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-weight: 500px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.SS2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 153px;
+    align-items: center;
+    width: 75rem;
+}
+.text2 h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Roboto;
+    width: 641px;
+    height: 70px;
+    line-height: 35px;
+
+}
+.text2 p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    width: 438px;
+    line-height: 23px;
+    margin-top: 14px;
+    height: 140px;
+}
+.SS2 .text2 .btn2{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-weight: 500px;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.World{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.World p{
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500px;
+    padding-top: 36px;
+    padding-bottom: 36px;   
+}
+.Loveclip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 43rem; 
+    gap: 100px;
+}
+.Love{
+    display: flex;
+    gap: 150px;
+}
+.Tat{
+    display: flex;
+    gap: 150px;
+}
+.Phrase p{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    height: 28px;
+}
+.Phrase span{
+    color: #F20A0A;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 24px;
+
+    height: 28.31px;
+}
+footer {
+    height: 200px;
+    background-color: #222;
+    padding-left: 297px;
+    padding-right: 297px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mocking p {
+    width: 366px;
+    height: 84px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.navBar1 ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;
+    line-height: 21px;
+}
+
+.navBar2 ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    list-style-type: none;
+}
+.hamburger{
+    display: none;
+}
+.burger{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    header{
+        padding-left: 0px;
+    }
+    .navBar{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        
+    }
+    .burger:checked ~ .navBar{
+        background-color: white;
+        display: block;
+        position: absolute;
+        margin-top: 200px;
+        width: 50%;
+    }
+    .burger:checked ~ .navBar ul{
+        display: grid;
+        justify-content: left;
+        padding: 0; 
+    }
+    .burger:checked ~ .navBar ul li{
+        margin-bottom: 20px;
+    }
+    .burger:checked ~ .navBar .btm{
+       margin-bottom: 20px;
+       margin-top: 20px;
+        padding: 10px 20px; 
+    }
+    .FS{
+        display: grid;
+    }
+    .FS img{
+        width: 200px;
+        height: auto;
+    }
+    .SS1{
+        display: grid;
+    }
+    .SS2{
+        display: grid;
+    }
+    .text h5{
+        font-weight: 700;
+        font-size: 20px;
+        justify-content: center;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 300px;
+        justify-content: center;
+    }
+    .btn1{
+        font-size: 20px;
+    }
+ 
+}
+@media only screen and (max-width:992px){
+    header{
+        padding-left: 0px;
+    }
+    .FS{
+        display: flex;
+    }
+    .FS img{
+        display: block;
+    }
+    .SS1{
+        display: flex;
+    }
+    .SS2{
+        display: flex;
+    }
+}
+@media only screen and (max-width:1200px){
+    header{
+        padding-left: 100px;
+    }
+    .FS{
+        display: flex;
+    }
+    .FS img{
+        display: block;
+    }
+    .SS1{
+        display: flex;
+    }
+    .SS2{
+        display: flex;
+    }
+}
+@media only screen and (max-width:1400px){
+    header{
+        padding-left: 100px;
+    }
+    .FS{
+        display: flex;
+    }
+    .FS img{
+        display: block;
+    }
+    .SS1{
+        display: flex;
+    }
+    .SS2{
+        display: flex;
+    }
+    
+}
