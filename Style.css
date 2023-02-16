@@ -28,6 +28,11 @@ header{
     margin-right: 20px;
     font-family: roboto;
 }
+
+.navBar ul li a{
+    color: #000000;
+}
+
 .navBar ul .HM{
     font-weight: bold;
     border-bottom: 6px solid #F20A0A;
