@@ -42,7 +42,7 @@ header{
     color: #F20A0A;
     font-weight: bold;
 }
-.FS{
+.firstsection{
     display: flex;
     background-color: #000000;
     color: white;
@@ -71,7 +71,7 @@ p{
     justify-content: center;
     padding: 0px; 
 }
-.FS img{
+.firstsection img{
     width: 500px;
     height: 500px;
 }
@@ -84,12 +84,16 @@ p{
     font-size: 30px;
     border: 2px solid red;
     margin-top: 30px;
-
     border: none;
     font-family: Roboto;
     border-radius: 15px;
+    transition: 0.3s all;
 }
-.SS{
+.btn1:hover{
+background: #F20A0A;
+color: black;
+}
+.second_section{
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -97,7 +101,7 @@ p{
     align-items: center;
     height: 70rem;
 }
-.SS1{
+.first_sub{
     display: flex;
     width: 75rem;
     align-items: center;
@@ -132,11 +136,17 @@ p{
     color: white;
     width: 120px;
     height: 40px;
+    margin-top: 30px;
     font-weight: 500px;
     font-family: Roboto;
     font-size: 20px;
+    transition: 0.3s all;
 }
-.SS2{
+.btn2:hover{
+    background: white;
+    color: black; 
+}
+.second_sub{
     display: flex;
     justify-content: space-between;
     margin-top: 153px;
@@ -161,7 +171,7 @@ p{
     margin-top: 14px;
     height: 140px;
 }
-.SS2 .text2 .btn2{
+.second_sub .text2 .btn2{
     background-color: black;
     color: white;
     width: 120px;
@@ -171,6 +181,21 @@ p{
     font-size: 20px;
     margin-top: 0px;
     padding-top: 0px;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    font-weight: 500px;
+    font-family: Roboto;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+.btn3:hover{
+    background: white;
+    color: black;
 }
 .World{
     background-color: black;
@@ -235,7 +260,7 @@ footer {
     margin-top: 20px;
 }
 
-.navBar1 ul li {
+.first_links ul li {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
@@ -243,7 +268,7 @@ footer {
     line-height: 21px;
 }
 
-.navBar2 ul li {
+.second_links ul li {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
@@ -255,115 +280,4 @@ footer {
 }
 .burger{
     display: none;
-}
-@media only screen and (max-width:768px){
-    header{
-        padding-left: 0px;
-    }
-    .navBar{
-        display: none;
-    }
-    .hamburger {
-        display: block;
-        
-    }
-    .burger:checked ~ .navBar{
-        background-color: white;
-        display: block;
-        position: absolute;
-        margin-top: 200px;
-        width: 50%;
-    }
-    .burger:checked ~ .navBar ul{
-        display: grid;
-        justify-content: left;
-        padding: 0; 
-    }
-    .burger:checked ~ .navBar ul li{
-        margin-bottom: 20px;
-    }
-    .burger:checked ~ .navBar .btm{
-       margin-bottom: 20px;
-       margin-top: 20px;
-        padding: 10px 20px; 
-    }
-    .FS{
-        display: grid;
-    }
-    .FS img{
-        width: 200px;
-        height: auto;
-    }
-    .SS1{
-        display: grid;
-    }
-    .SS2{
-        display: grid;
-    }
-    .text h5{
-        font-weight: 700;
-        font-size: 20px;
-        justify-content: center;
-    }
-    p{
-        font-size: 20px;
-        font-weight: 300px;
-        justify-content: center;
-    }
-    .btn1{
-        font-size: 20px;
-    }
- 
-}
-@media only screen and (max-width:992px){
-    header{
-        padding-left: 0px;
-    }
-    .FS{
-        display: flex;
-    }
-    .FS img{
-        display: block;
-    }
-    .SS1{
-        display: flex;
-    }
-    .SS2{
-        display: flex;
-    }
-}
-@media only screen and (max-width:1200px){
-    header{
-        padding-left: 100px;
-    }
-    .FS{
-        display: flex;
-    }
-    .FS img{
-        display: block;
-    }
-    .SS1{
-        display: flex;
-    }
-    .SS2{
-        display: flex;
-    }
-}
-@media only screen and (max-width:1400px){
-    header{
-        padding-left: 100px;
-    }
-    .FS{
-        display: flex;
-    }
-    .FS img{
-        display: block;
-    }
-    .SS1{
-        display: flex;
-    }
-    .SS2{
-        display: flex;
-    }
-    
 }
